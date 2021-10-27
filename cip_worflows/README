@@ -1,0 +1,4 @@
+## Chest Imaging Platform Workflows
+
+- This folder contains a jupyter notebook that walk you through 3 main execution pipelines (densitometry, airway and vascular analysis) using a bash script and the docker image of the Chest Imaging Platform.
+
