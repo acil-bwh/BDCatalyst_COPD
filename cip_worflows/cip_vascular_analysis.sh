@@ -9,7 +9,7 @@ if [ ! -s ${path}/${cid}.nrrd ] && [ ! -d ${path}/${cid} ]; then
 
 else
 
-cont=`docker run -ti -v ${path}:/host -d bdc_test`
+cont=`docker run -ti -v ${path}:/host -d acilbwh/chestimagingplatform:bdc`
 export dock="docker exec -ti ${cont} "
 
 if [ ! -s ${path}/${cid}.nrrd ] ;then
